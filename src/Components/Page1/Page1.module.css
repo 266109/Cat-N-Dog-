@@ -1,0 +1,39 @@
+#content img {
+  background-size: cover;
+  background-position: left top;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fde3d9;
+}
+
+#para {
+  width: 40%;
+  margin: 20px;
+  margin-top: 10%;
+  background-color: #fde3d9;
+}
+
+#floatingbox {
+  position: fixed;
+  top: 32%;
+  left: 43%;
+  width: 27%;
+  height: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  z-index: 2;
+  background-color: transparent;
+}
+
+#floatingbox p {
+  margin: 0;
+  font-size: 16px;
+  color: #6e6d6d;
+  background-color: transparent;
+  text-align: center;
+}
